@@ -1,0 +1,86 @@
+/* navigation bar */
+#navbar{
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#navbar ul{
+    padding: 0px;
+}
+#navbar ul li a{
+    padding: 0px 12px;
+    font-size: 13px
+}
+/* Home */
+#home h1{
+    margin: 14px 2px;
+    font-size: 1.3rem;
+}
+#home::before {
+    content: "";
+    background: url(/images/bg/bg.jpg) no-repeat center center/cover;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 51vh;
+    z-index: -1;
+    opacity: 0.89;
+}
+
+/* Services */
+#services{
+    flex-direction: column;
+    margin: 2px;
+}
+#services .box{
+    margin: 4px;
+}
+#services-container::before {
+    content: "";
+    background: url(/images/bg/bg3.jpg) no-repeat center center/cover;
+    position: absolute;
+    width: 100%;
+    height: 106vh;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+/* clients */
+#client{
+    flex-wrap: wrap;
+}
+#client img{
+    height: 155px;
+}
+#client-section::before {
+    content: "";
+    background-color: rgb(21 13 102);
+    position: absolute;
+    width: 100%;
+    height: 54vh;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+/* Contact */
+#contact::before {
+    content: '';
+    position: absolute;
+    background: url(/images/bg/bg4.jpg) no-repeat center center/cover;
+    width: 100%;
+    height: 45vh;
+    z-index: -1;
+    opacity: 0.5;
+}
+#contact-box form{
+    width: 80%;
+}
+#contact-box label{
+    font-size: 1rem;
+}
+
+/* utilities */
+.h-primary {
+    font-size: 2.8rem;
+    margin: 6.4px 2px;
+}
